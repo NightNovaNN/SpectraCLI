@@ -1,0 +1,13 @@
+{
+    "name": "SpaceTool",
+    "banner": true,
+    "banner_color": "cyan",
+    "commands": {
+        "launch": "s=Spinner('Launching rocket','yellow');s.start();time.sleep(2);s.stop('Rocket launched!')",
+        "progress": "progress(30,0.03,'green')",
+        "hello": "print(color('Hello, Universe!','magenta'))",
+        "askname": "n=ask('Your name?');print(color('Hello '+n,'cyan'))",
+        "tabletest": "table(['Planet','Mass'],[['Earth','5.97e24'],['Mars','6.39e23']])",
+        "clear": "clear()"
+    }
+}
